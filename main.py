@@ -1,6 +1,4 @@
-import base64
 from github import Github
-from pprint import pprint
 from datetime import datetime
 from time import sleep
 import os
@@ -24,4 +22,4 @@ def commit_it(target):
     print("Made Commit")
 while True:
     commit_it("princecodes247/pyCommited")
-    sleep(3600)
+    sleep(10)
