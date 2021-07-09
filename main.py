@@ -24,4 +24,4 @@ def commit_it(target):
     print("Made Commit")
 while True:
     commit_it("princecodes247/pyCommited")
-    sleep(10)
+    sleep(3600)
